@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="AlumniHelpdesk">
+
+	<listeners>
+		<listener class-name="Utilities.AllureListeners" />
+	</listeners>
+	
+	
+<test thread-count="5" name="Alumni Module">
+    <classes>
+	     <class name="Test_Alumni.SC_AL_004_Test_RequestTest"/>
+		<!-- <class name="Test_Alumni.SC_AL_006_Test_Logout"></class> 
+	 	
+		<class name="Test_Alumni.SC_AL_003_Test_AlumniTicket_Test"/> 
+	     <class name="Test_Alumni.SC_AL_002_ForgetPassword_Test"/>
+		  <class name="Test_Alumni.SC_AL_005_Test_SearchBox"></class>
+		 <class name="Test_Alumni.SC_AL_001_Test_LoginTest"/>-->
+	</classes>
+	</test>
+<!--
+	<test thread-count="5" name="Staff_Module">
+		<classes>
+		<class name="Test_Staff.ChangeStatus_Priority_Staff_Test.SC_AL_004_Priority_Status_Test" />
+			<class name="Test_Staff.Filters.Status_Staff_Test" />
+		    <class name="Test_Staff.SC_AL_001_StaffLoginTest" />
+			<class name="Test_Staff.Filters.Priority_Filter_Test" />
+		<class name="Test_Staff.Filters.Department_filter_Test" />
+		<class name="Test_Staff.Filters.Category_Filter_Test" />
+			<class name="Test_Staff.ChangeStatus_Priority_Staff_Test.SC_AL_004_Priority_Status_Test" />
+			<class name="Test_Staff.AssginAndForward.SC_AL_003_AssignAndForward_Test" />
+			<class name="Test_Staff.Assgin_Foward_Staff_Ticket.Assign_Forward_Ticket_Test" />
+			<class name="Test_Staff.SC_AL_002_SearchBox_Staff_Text" />
+			
+			<class name="Test_Staff.filters.Department_filter_Test" />
+			<class name="Test_Staff.filters.Priority_Filter_Test" />
+			<class name="Test_Staff.filters.Status_Staff_Test" />
+
+
+		</classes>
+	</test>-->
+
+ <!--<test thread-count ="5"  name="Admin Module">
+		
+		
+		<classes>
+			
+			<class name="Test_Admin.SC_AL_009.Logout_Test"></class>
+			<class name="Test_Admin.Manage.SC_AL_008.SLA_Test"></class>
+			<class name="Test_Admin.SC_AL_005.Manage_Staff_Test"></class>
+			<class name="Test_Admin.Manage.SC_AL_007.Categories_Test"></class>
+			<class name="Test_Admin.Manage.SC_AL_006.Organization_Test"></class>
+			<class name="Test_Admin.SC_AL_001_LoginTest_Admin"></class>
+			<class name="Test_Admin.SC_AL_004.ManageAlumni_Test"></class>
+			<class name="Test_Admin.Filters_SC_AL_003.Department_Test"></class>
+			<class name="Test_Admin.Filters_SC_AL_003.Status_Test"></class>
+			<class name="Test_Admin.Filters_SC_AL_003.Category_Test"></class>
+			<class name="Test_Admin.SC_AL_002_Assign_forward_Test"></class>
+		    
+		</classes>
+	</test> -->
+ 
+    
+    
+    
+</suite> 
+
+

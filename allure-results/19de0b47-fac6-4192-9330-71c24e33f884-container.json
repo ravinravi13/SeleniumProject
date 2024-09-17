@@ -1,0 +1,1 @@
+{"uuid":"19de0b47-fac6-4192-9330-71c24e33f884","name":"AlumniHelpdesk","children":["d5fad364-63f3-43d2-82c9-6149a444c9bc"],"befores":[{"name":"setAllureEnvironment","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1724762145338,"stop":1724762145552}],"afters":[],"start":1724762145254,"stop":1724762186239}

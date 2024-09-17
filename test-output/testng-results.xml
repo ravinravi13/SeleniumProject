@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-29T11:23:43 IST" name="AlumniHelpdesk" finished-at="2024-08-29T11:24:25 IST" duration-ms="42069">
+    <groups>
+    </groups>
+    <test started-at="2024-08-29T11:23:43 IST" name="Alumni Module" finished-at="2024-08-29T11:24:25 IST" duration-ms="42069">
+      <class name="Test_Alumni.SC_AL_004_Test_RequestTest">
+        <test-method is-config="true" signature="setAllureEnvironment()[pri:0, instance:Test_Alumni.SC_AL_004_Test_RequestTest@4eb1c69]" started-at="2024-08-29T11:23:43 IST" name="setAllureEnvironment" finished-at="2024-08-29T11:23:43 IST" duration-ms="226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setAllureEnvironment -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Test_Alumni.SC_AL_004_Test_RequestTest@4eb1c69]" started-at="2024-08-29T11:23:43 IST" name="Setup" finished-at="2024-08-29T11:23:52 IST" duration-ms="8852" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="VerifyUploadInvalidSizeFile()[pri:6, instance:Test_Alumni.SC_AL_004_Test_RequestTest@4eb1c69]" started-at="2024-08-29T11:23:52 IST" name="VerifyUploadInvalidSizeFile" finished-at="2024-08-29T11:24:24 IST" duration-ms="32404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUploadInvalidSizeFile -->
+        <test-method is-config="true" signature="Screen(org.testng.ITestResult)[pri:0, instance:Test_Alumni.SC_AL_004_Test_RequestTest@4eb1c69]" started-at="2024-08-29T11:24:25 IST" name="Screen" finished-at="2024-08-29T11:24:25 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyUploadInvalidSizeFile status=SUCCESS method=SC_AL_004_Test_RequestTest.VerifyUploadInvalidSizeFile()[pri:6, instance:Test_Alumni.SC_AL_004_Test_RequestTest@4eb1c69] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Screen -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:Test_Alumni.SC_AL_004_Test_RequestTest@4eb1c69]" started-at="2024-08-29T11:24:25 IST" name="TearDown" finished-at="2024-08-29T11:24:25 IST" duration-ms="481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- Test_Alumni.SC_AL_004_Test_RequestTest -->
+    </test> <!-- Alumni Module -->
+  </suite> <!-- AlumniHelpdesk -->
+</testng-results>

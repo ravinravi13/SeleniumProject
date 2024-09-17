@@ -1,0 +1,1 @@
+{"uuid":"e82ac64c-77e8-4acf-9779-4501ccfa5fd7","name":"BaseClass.Base.Screen","children":["2609d144-c490-43e7-966c-d6aadc305db3"],"description":"","befores":[],"afters":[{"name":"Screen","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1724751541939,"stop":1724751541939}],"start":1724751541938,"stop":1724751541939}

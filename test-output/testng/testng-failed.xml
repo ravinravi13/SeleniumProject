@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [testng]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Alumni Module(failed)">
+    <classes>
+      <class name="Test_Alumni.SC_AL_001_Test_LoginTest">
+        <methods>
+          <include name="TC001_ALumniLogin"/>
+          <include name="TC002_VerifyInavlidEmail"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- Test_Alumni.SC_AL_001_Test_LoginTest -->
+    </classes>
+  </test> <!-- Alumni Module(failed) -->
+</suite> <!-- Failed suite [testng] -->
